@@ -1,0 +1,101 @@
+html,
+body
+{
+	margin: 0; 
+	padding: 0;
+}
+
+.wrapper
+{
+	display: block;
+	width: 100%;
+}
+
+	.mainheader
+	{
+		background-color: lightblue;
+		display: block;
+		height: 100px;
+	}
+
+	.mainnav
+	{
+		background-color: cyan;
+		display: block;
+		height: 40px;
+	}
+
+	.maincontent
+	{
+		background: orange;
+		display: block;
+		height: 400px;
+	}
+
+		.column
+		{
+			float: left;
+			height: 390px;
+			width: 25%;
+		}
+
+		.column-1
+		{
+			background-color: red;
+		}
+
+		.column-2
+		{
+			background-color: gray;
+		}
+
+		.column-3
+		{
+			background-color: yellow;
+		}
+
+		.column-4
+		{
+			background-color: green;
+		}
+
+	.mainfooter
+	{
+		background-color: brown;
+		display: block;
+		height: 20px;
+	}
+
+
+@media (min-width: 320px) and (max-width: 767px){
+
+		.column
+		{
+			float: left;
+			height: 200px;
+			width: 100%;
+		}
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+
+		.column
+		{
+			float: left;
+			height: 200px;
+			width: 50%;
+		}
+
+
+	
+}
+
+@media (min-width: 992px){
+
+
+	
+}
+
+
