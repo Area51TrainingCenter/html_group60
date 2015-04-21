@@ -13,14 +13,14 @@ Se dejo un pequeño caso para la creación de una noticia donde crearan las sigu
 
 Se considerará el siguiente armado como estructura base:
 
-`<article>
-    <header>
-       <!-- Cabecera de la noticia -->
-    </header>
-    <section>
-       <!-- Contenido de la noticia -->
-    </section>
-</article>`
+    <article>
+        <header>
+            <!-- Cabecera de la noticia -->
+        </header>
+        <section>
+           <!-- Contenido de la noticia -->
+        </section>
+    </article>
 
 
 Recursos a considerar:
